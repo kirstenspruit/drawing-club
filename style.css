@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+  color: #17202A;
+  border-color: #17202A;
+}
+
+.content {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr;
+}
+.alldrawings {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.drawing {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+img {
+  width: 100%;
+  border: 4px double;
+}
+
+footer {
+  margin-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+a {
+  color: #000;
+}
+
+@media only screen and (max-width:1100px) {
+
+  /* For mobile phones: */
+  .content, .alldrawings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+}
+
+@media only screen and (max-width:700px) {
+
+  /* For mobile phones: */
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .alldrawings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
