@@ -2,6 +2,23 @@
   box-sizing: border-box;
 }
 
+.redirection {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-size: 100px;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.redirection a {
+  color: #00f;
+}
+
 body {
   font-size: 20px;
   font-family: sans-serif;
